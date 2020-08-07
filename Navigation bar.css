@@ -1,0 +1,121 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+#toggle{
+    display: none;
+
+}
+.toggle-area{
+    position: relative;
+    border-bottom: 2px;
+    color: #fff;
+    display: none;
+    float: right;
+     
+}
+
+.toggle-area label{
+    background-color: teal;
+    height: 30px;
+    width: 25px;
+    color: #ddd;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menu-icon{
+    background-color: #000;
+    height: 2px;
+    width: 16px;
+    margin: 2px 0 ;
+
+}
+.navigation-bar{
+    justify-content: space-between;
+    text-transform: uppercase;
+    float: right;
+    font-family: tahoma;
+    font-size: 20px;  
+    transform: translateY(15%);
+    display: flex;
+    line-height: normal;
+    text-align: center;
+}
+
+@media screen and (max-width:840px){
+    .navigation-bar{
+        background:none;
+        flex-direction: column;
+        display:none;
+        text-align: center;
+        align-items: center;
+        width: 800px;
+        position: relative;
+        line-height: normal;
+        padding: 0;
+        margin: 0;
+        padding-bottom: 100px;
+        
+    }
+    #toggle:checked + .navigation-bar{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    #header{
+        background:rgb(1 6 21);
+        display: block;
+        height:0;
+    }
+    .toggle-area{
+        display: flex;
+        background: none;
+        float: right;
+        padding:0;
+    }
+    .topnav{
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .title{
+        text-align: center;
+        font-size: 35px;
+        padding:0;
+        transform:none;
+        text-align: center;
+        color: #ddd;
+        font-family: tahoma;
+        letter-spacing: 0.8em;
+        display: flex;
+        flex-wrap: nowrap;
+     
+    }
+    .welcometext1{
+        padding-top: 40px;
+    }
+    .navigation-bar li a:before,
+.navigation-bar  li a:after{
+    content:'' ;
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    background-color:teal;
+    left: 0;
+    transform: scaleX(0);
+    z-index:-2;
+    transition: all 3s;
+}
+  
+}

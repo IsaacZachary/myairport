@@ -1,0 +1,149 @@
+.social-media ul{
+    top: 50%;
+    left: 50%;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    padding: 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+
+}
+.social-media ul li{
+    list-style: none;
+    margin: 0 20px;
+
+}
+.social-media ul li .fab{
+    font-size: 35px;
+    line-height: 50px;
+    transition: 0.5s;
+    color: #010615;
+}
+.social-media ul li .fab:hover{
+   color:#fff;
+}
+.social-media ul li a{
+    position: relative;
+    display: block;
+    width: 55px;
+    height: 55px;
+    border-radius: 40px;
+    background-color: #fff;
+    text-align: center;
+    transition: 0.5s;
+    box-shadow: 0 20px 20px rgb(86, 167, 167);
+}
+.social-media ul li a:hover{
+    transform: translate(0, -10px);
+}
+.social-media ul li:nth-child(1) a:hover{
+    background-color: #0a348d;
+}
+.social-media ul li:nth-child(2) a:hover{
+    background-color: #55acee;
+}
+.social-media ul li:nth-child(3) a:hover{
+    background-color: #8b283a;
+}
+.social-media ul li:nth-child(4) a:hover{
+    background-color: #b11a1a;
+}
+#whatsapp .fab{
+    color: #0fb340;
+    font-size: 30px;
+}
+#phone .fas{
+    font-size: 30px;
+    color:rgb(86, 167, 167) ;
+}
+.contact{
+    box-align:center;  
+    width:20px; 
+    height:20px; 
+}
+.whatsaap{
+    width: 50px;
+    height: 50px;
+    
+}
+footer{
+    color-interpolation-filters: linearRGB;
+    color: rgb(25, 69, 83);
+    display: flex;
+    flex-direction: column;
+    font-weight: 100px;
+    text-align: center;
+    line-height: 5rem;
+    padding-top: 70px;
+}
+#contactus{
+    color: rgb(25, 69, 83);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+}
+.bottomhr{
+    width: 60%;
+    font-weight: 100%;
+    margin: 20px 80px;
+    align-self: center;
+    padding: 2px 0;
+    background-color: rgb(86, 167, 167);
+    box-shadow: 0 20px 20px rgb(86, 167, 167);
+    
+}
+.addresses{
+    color: rgb(86, 167, 167);
+    padding: 40px;
+    font-size: 25px;
+    font-family: monospace;
+}
+.copyright{
+    font-size: 20px;
+    font-weight: 100%;
+    font-family: tahoma;
+    letter-spacing: 0.1rem;
+}
+.email-area{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    border: none;
+    box-shadow: none;
+}
+.email{
+    height: 40px;
+    width: 40%;
+    margin: 0;
+    color: #55acee;
+    border: none;
+    border-radius: 8px;
+}
+input{
+    color: #010615;
+    background: rgb(86, 167, 167);
+    border: none;
+    font-size: large;
+    z-index: 2;
+    border-color: transparent;
+    box-shadow: none;
+    border: 0px;
+}
+button{
+    height: 35px;
+    width: 70px;
+    margin:2px 8px;
+    color: #010615;
+    background:#55acee ;
+    box-shadow: 0px -20px 60px rgb(86, 167, 167);
+    text-transform: uppercase;
+    font-weight:bolder ;
+    border-radius: 8px;
+    border: none;
+}
+button:hover{
+    transform: translate(0px, -2px);
+    height: 40px;
+    width: 80px;
+}
