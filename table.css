@@ -1,0 +1,39 @@
+.table-services{
+    display: flex;
+
+}
+table{
+    margin: 20px;
+    align-items: center;
+    border: 20px;
+    background: url(table.jpg);
+    background-size:800px;
+    background-repeat: no-repeat;
+    border-width: 10px;
+    padding: 20px;
+    z-index: -2;
+    position: relative;
+
+
+}
+caption{
+    font-size: 30px;
+    font-weight: bolder;
+    color: teal;
+    font-family: tahoma;
+}
+table tr th{
+    color-interpolation-filters: auto;
+    color: teal;
+    padding: 10px 20px;
+    font-family: tahoma;
+    font-size: 20px;
+    font-weight: bolder;
+}
+table tr td{
+    padding: 15px 75px;
+    font-family:monospace;
+    font-size:25px ;
+    color: #ddd;
+    font-weight: bolder;
+}
